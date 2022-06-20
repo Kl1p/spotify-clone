@@ -8,7 +8,6 @@ type ReactProps = {
 export function Default({ children }: ReactProps) {
     return (
         <Container>
-            Olá mundo
             {children}
         </Container>
         
