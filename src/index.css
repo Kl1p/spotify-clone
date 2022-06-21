@@ -28,11 +28,13 @@ body {
   box-sizing: border-box;
 }
 
-body, #root{
+#root {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 
 }
+
+
 
 body, input, textarea, button {
   margin: 0;

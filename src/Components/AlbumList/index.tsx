@@ -1,12 +1,21 @@
 import React from 'react';
-import { Container, Subtitle} from './styles';
+import { Container, Subtitle, Wrapper} from './styles';
 import { AlbumItem }  from '../AlbumItem'; 
 
-export function AlbumList() {
+type AlbumProps = {
+  title: string,
+}
+export function AlbumList({ title, ...props  }:AlbumProps) {
   return (
     <Container>
-      <Subtitle>Albuns buscados recentemente</Subtitle>
+      <Subtitle>{ title }</Subtitle>
+      <Wrapper>
       <AlbumItem />
+      <AlbumItem />
+      <AlbumItem />
+      <AlbumItem />
+            
+      </Wrapper>
     </Container>
   );
 }

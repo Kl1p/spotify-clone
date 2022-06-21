@@ -25,5 +25,5 @@ export const Input = styled.input`
     background-color: transparent;
     color: var(--white);
     outline: 0;
-    padding-left: 10px
+    padding-left: 40px
     `;
