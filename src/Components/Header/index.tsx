@@ -5,7 +5,8 @@ export function Header() {
     return (
         <Container>
             <img 
-            src="https://icon-library.com/images/black-spotify-icon/black-spotify-icon-26.jpg" alt="Logo"
+            src="https://cdn.iconscout.com/icon/free/png-256/spotify-1682937-1440796.png" 
+            alt="Logo"
              />
         </Container>
     )
